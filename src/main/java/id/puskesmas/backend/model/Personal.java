@@ -1,7 +1,9 @@
 package id.puskesmas.backend.model;
 
 
+
 import lombok.Data;
+
 
 import javax.persistence.*;
 import java.sql.Timestamp;
@@ -12,7 +14,7 @@ import java.sql.Timestamp;
 public class Personal {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "personal_id")
+    @Column (name = "personal_id")
     private Long personalId;
 
     @Column(name = "personal_name")

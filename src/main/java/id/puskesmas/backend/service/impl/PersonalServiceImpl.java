@@ -52,6 +52,8 @@ public class PersonalServiceImpl implements PersonalService {
          produceDto.setFromTable("personal");
          produceDto.setToTable(null);
          produceDto.setPayload(personal);
-         sendData(produceDto);
+         if(Boolean.parseBoolean(useKafka)){
+             sendData(produceDto);
+         }
     }
 }
