@@ -1,2 +1,6 @@
 # puskesmasBackend
-puskesmas backend adalah sebuah project yang saya gunakan untuk belajar membuat CRUD sederhana, mengimplementasikan kafka, dbflyway dan untuk belajar hal lainnya
+Puskesmas backend adalah sebuah project CRUD sederhana.
+Adapun fitur yang saya terapkan disini antara lain :
+- implementasikan kafka
+- implementasi dbflyway
+- implementasi swagger
